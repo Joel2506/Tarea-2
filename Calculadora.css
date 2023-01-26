@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+}
+
+.calculator {
+    width: 450px;
+	height: 450px;
+	border: 2px solid rgb(0, 255, 55);
+	margin: 0 auto;
+	padding: 20px;
+	background: linear-gradient(to bottom, #00bfff, #0080ff);
+    margin-top: -510px;
+   
+}
+
+.calculator-display {
+    width: 220px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.calculator-keypad{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+}
+
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.keypad-button{
+    width: 25%;
+    padding: 18px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(0, 59, 114);
+    
+}
+
+.keypad-button:hover {
+    filter: brightness(90%);
+    transition: filter .25s;
+}
+
+.keypad-button.yellow {
+    background-color: rgb(0, 255, 55);
+}
+
+.keypad-button.large {
+    width: 50%;
+}
+
+.keypad-button.dark{
+    background-color: lightgray;
+}
+
+.registro{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.padre_hijo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eliminar_registros{
+    /* border: 1px solid gray; */
+    margin-top: -20px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.eliminar_registros:hover{
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+
+
+body {
+    background: linear-gradient(to right, #00778b, #0059ff);
+}
+
+
+h1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #00bdd6, #0011ff);
+	-webkit-text-stroke: 2px rgb(0, 255, 55);
+    text-align: center;
+    font-weight: 100;
+    font-size: 100px;
+  
+}
